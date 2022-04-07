@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>APPLE</title>
+    
+</head>
+<body>
+    <h1>APPLE</h1>
+    <nav class="country">
+        <p>Choose another country or region to see content specific to your location.
+            <label id="countries" for="country">Country</label><span style="color: red !important; display: inline; float: none;">*</span>      
+        
+            <select id="country" name="country" class="form-control">
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Åland Islands">Åland Islands</option>
+                <option value="Albania">Albania</option>
+                <option value="Algeria">Algeria</option>
+                <option value="American Samoa">American Samoa</option>
+                <option value="Andorra">Andorra</option>
+                <option value="Angola">Angola</option>
+                <option value="Anguilla">Anguilla</option>
+                <option value="Antarctica">Antarctica</option>
+                <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Aruba">Aruba</option>
+                <option value="Australia">Australia</option>
+                <option value="Austria">Austria</option>
+                <option value="Azerbaijan">Azerbaijan</option>
+                <option value="Bahamas">Bahamas</option>
+                <option value="Bahrain">Bahrain</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Barbados">Barbados</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Belgium">Belgium</option>
+                <option value="Belize">Belize</option>
+                <option value="Benin">Benin</option>
+                <option value="Bermuda">Bermuda</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+                <option value="Botswana">Botswana</option>
+                <option value="Bouvet Island">Bouvet Island</option>
+                <option value="Brazil">Brazil</option>
+                <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+                <option value="Brunei Darussalam">Brunei Darussalam</option>
+                <option value="Bulgaria">Bulgaria</option>
+                <option value="Burkina Faso">Burkina Faso</option>
+                <option value="Burundi">Burundi</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Canada">Canada</option>
+                <option value="Cape Verde">Cape Verde</option>
+                <option value="Cayman Islands">Cayman Islands</option>
+                <option value="Central African Republic">Central African Republic</option>
+                <option value="Chad">Chad</option>
+                <option value="Chile">Chile</option>
+                <option value="China">China</option>
+                <option value="Christmas Island">Christmas Island</option>
+                <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Comoros">Comoros</option>
+                <option value="Congo">Congo</option>
+                <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+                <option value="Cook Islands">Cook Islands</option>
+                <option value="Costa Rica">Costa Rica</option>
+                <option value="Cote D'ivoire">Cote D'ivoire</option>
+                <option value="Croatia">Croatia</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Cyprus">Cyprus</option>
+                <option value="Czech Republic">Czech Republic</option>
+                <option value="Denmark">Denmark</option>
+                <option value="Djibouti">Djibouti</option>
+                <option value="Dominica">Dominica</option>
+                <option value="Dominican Republic">Dominican Republic</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Egypt">Egypt</option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Equatorial Guinea">Equatorial Guinea</option>
+                <option value="Eritrea">Eritrea</option>
+                <option value="Estonia">Estonia</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+                <option value="Faroe Islands">Faroe Islands</option>
+                <option value="Fiji">Fiji</option>
+                <option value="Finland">Finland</option>
+                <option value="France">France</option>
+                <option value="French Guiana">French Guiana</option>
+                <option value="French Polynesia">French Polynesia</option>
+                <option value="French Southern Territories">French Southern Territories</option>
+                <option value="Gabon">Gabon</option>
+                <option value="Gambia">Gambia</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Germany">Germany</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Gibraltar">Gibraltar</option>
+                <option value="Greece">Greece</option>
+                <option value="Greenland">Greenland</option>
+                <option value="Grenada">Grenada</option>
+                <option value="Guadeloupe">Guadeloupe</option>
+                <option value="Guam">Guam</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Guernsey">Guernsey</option>
+                <option value="Guinea">Guinea</option>
+                <option value="Guinea-bissau">Guinea-bissau</option>
+                <option value="Guyana">Guyana</option>
+                <option value="Haiti">Haiti</option>
+                <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
+                <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+                <option value="Honduras">Honduras</option>
+                <option value="Hong Kong">Hong Kong</option>
+                <option value="Hungary">Hungary</option>
+                <option value="Iceland">Iceland</option>
+                <option value="India">India</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+                <option value="Iraq">Iraq</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Isle of Man">Isle of Man</option>
+                <option value="Israel">Israel</option>
+                <option value="Italy">Italy</option>
+                <option value="Jamaica">Jamaica</option>
+                <option value="Japan">Japan</option>
+                <option value="Jersey">Jersey</option>
+                <option value="Jordan">Jordan</option>
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Kiribati">Kiribati</option>
+                <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+                <option value="Korea, Republic of">Korea, Republic of</option>
+                <option value="Kuwait">Kuwait</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+                <option value="Latvia">Latvia</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="Lesotho">Lesotho</option>
+                <option value="Liberia">Liberia</option>
+                <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+                <option value="Liechtenstein">Liechtenstein</option>
+                <option value="Lithuania">Lithuania</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="Macao">Macao</option>
+                <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+                <option value="Madagascar">Madagascar</option>
+                <option value="Malawi">Malawi</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Maldives">Maldives</option>
+                <option value="Mali">Mali</option>
+                <option value="Malta">Malta</option>
+                <option value="Marshall Islands">Marshall Islands</option>
+                <option value="Martinique">Martinique</option>
+                <option value="Mauritania">Mauritania</option>
+                <option value="Mauritius">Mauritius</option>
+                <option value="Mayotte">Mayotte</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+                <option value="Moldova, Republic of">Moldova, Republic of</option>
+                <option value="Monaco">Monaco</option>
+                <option value="Mongolia">Mongolia</option>
+                <option value="Montenegro">Montenegro</option>
+                <option value="Montserrat">Montserrat</option>
+                <option value="Morocco">Morocco</option>
+                <option value="Mozambique">Mozambique</option>
+                <option value="Myanmar">Myanmar</option>
+                <option value="Namibia">Namibia</option>
+                <option value="Nauru">Nauru</option>
+                <option value="Nepal">Nepal</option>
+                <option value="Netherlands">Netherlands</option>
+                <option value="Netherlands Antilles">Netherlands Antilles</option>
+                <option value="New Caledonia">New Caledonia</option>
+                <option value="New Zealand">New Zealand</option>
+                <option value="Nicaragua">Nicaragua</option>
+                <option value="Niger">Niger</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Niue">Niue</option>
+                <option value="Norfolk Island">Norfolk Island</option>
+                <option value="Northern Mariana Islands">Northern Mariana Islands</option>
+                <option value="Norway">Norway</option>
+                <option value="Oman">Oman</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Palau">Palau</option>
+                <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+                <option value="Panama">Panama</option>
+                <option value="Papua New Guinea">Papua New Guinea</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Peru">Peru</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Pitcairn">Pitcairn</option>
+                <option value="Poland">Poland</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Puerto Rico">Puerto Rico</option>
+                <option value="Qatar">Qatar</option>
+                <option value="Reunion">Reunion</option>
+                <option value="Romania">Romania</option>
+                <option value="Russian Federation">Russian Federation</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Saint Helena">Saint Helena</option>
+                <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+                <option value="Saint Lucia">Saint Lucia</option>
+                <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
+                <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+                <option value="Samoa">Samoa</option>
+                <option value="San Marino">San Marino</option>
+                <option value="Sao Tome and Principe">Sao Tome and Principe</option>
+                <option value="Saudi Arabia">Saudi Arabia</option>
+                <option value="Senegal">Senegal</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Seychelles">Seychelles</option>
+                <option value="Sierra Leone">Sierra Leone</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Slovakia">Slovakia</option>
+                <option value="Slovenia">Slovenia</option>
+                <option value="Solomon Islands">Solomon Islands</option>
+                <option value="Somalia">Somalia</option>
+                <option value="South Africa">South Africa</option>
+                <option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+                <option value="Spain">Spain</option>
+                <option value="Sri Lanka">Sri Lanka</option>
+                <option value="Sudan">Sudan</option>
+                <option value="Suriname">Suriname</option>
+                <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
+                <option value="Swaziland">Swaziland</option>
+                <option value="Sweden">Sweden</option>
+                <option value="Switzerland">Switzerland</option>
+                <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                <option value="Taiwan">Taiwan</option>
+                <option value="Tajikistan">Tajikistan</option>
+                <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Timor-leste">Timor-leste</option>
+                <option value="Togo">Togo</option>
+                <option value="Tokelau">Tokelau</option>
+                <option value="Tonga">Tonga</option>
+                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                <option value="Tunisia">Tunisia</option>
+                <option value="Turkey">Turkey</option>
+                <option value="Turkmenistan">Turkmenistan</option>
+                <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                <option value="Tuvalu">Tuvalu</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="United Arab Emirates">United Arab Emirates</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United States">United States</option>
+                <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Uzbekistan">Uzbekistan</option>
+                <option value="Vanuatu">Vanuatu</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Viet Nam">Viet Nam</option>
+                <option value="Virgin Islands, British">Virgin Islands, British</option>
+                <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
+                <option value="Wallis and Futuna">Wallis and Futuna</option>
+                <option value="Western Sahara">Western Sahara</option>
+                <option value="Yemen">Yemen</option>
+                <option value="Zambia">Zambia</option>
+                <option value="Zimbabwe">Zimbabwe</option>
+            </select>
+
+            <input type="submit" value="Continue"><br>
+   
+        </p>
+    </nav>
+
+    <nav class="design">
+        <ul>
+            <li class="nav-item active"><a class="nav-link" href="#">iPhone</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/mac/" tabindex="-1" aria-disabled="true">Mac</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/ipad/" tabindex="-1" aria-disabled="true">iPad</a></li>
+            <li class="nav-item"><a class="nav-link" href="http://www.apple.com/iphone/" tabindex="-1" aria-disabled="true">iPhone</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/Watch/" tabindex="-1" aria-disabled="true">Watch</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://www.apple.com/TV/" tabindex="-1" aria-disabled="true">TV</a></li>
+            <li class="nav-item"><a class="nav-link" href="#testimonial" tabindex="-1" aria-disabled="true">Music</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://support.apple.com" tabindex="-1" aria-disabled="true">Support</a></li>
+            <li class="nav-item" role="search"><a class="nav-link search" href="https://www.apple.com/us/search" 
+                data-analytics-title="search" data-analytics-click="search"
+                 data-analytics-intrapage-link aria-label="Search apple.com"></a></li>
+			<li class="nav-item bag" id="bag">
+                <div class="bag-wrapper"> <a class="nav-link nav-link-bag" href="https://www.apple.com/us/shop/goto/bag"  data-analytics-title="bag" 
+                    data-analytics-click="bag" aria-label="Shopping Bag" data-string-badge="Shopping Bag with item count : {%BAGITEMCOUNT%}">
+				<span class="nav-link-text">Shopping Bag</span></a><span class="nav-bag-badge" aria-hidden="true">
+				<span class="nav-bag-badge-separator"></span><span class="nav-bag-badge-number"></span><span class="nav-bag-badge-unit">+</span></span>
+				</div>
+				<span class="nav-bagview-caret nav-bagview-caret-large"></span>
+			</li>
+        </ul>
+    </nav>
+    <section class="section-1">
+    <div class="module-content">
+								
+        <div
+             class="unit-wrapper theme-dark background" >
+                <a class="unit-link" href="http://www.apple.com/iphone-se/" target="_self" rel="follow" data-analytics-region="learn more" >&nbsp;</a>
+ <div class="wrapper">
+                
+     <h2 class="headline" >iPhone SE</h2>
+     <h3 class="subhead"  role="presentation">Lots to love. Less to spend. Starting at $399.</h3>
+                
+     <p class="price price-alt">
+         <span aria-label="From nine dollars and fifty four cents per month or two hundred and twenty nine dollars with trade in."
+             role="text">From <span class="nowrap">$9.54/mo.</span> or&nbsp;<span class="nowrap">$229</span>&nbsp;with&nbsp;trade‑in.</span><sup><a href="#footnote-1" class="footnote">1</a></sup> </p>
+                
+                
+      <div  class="cta-links" > <a class="icon icon-after icon-chevronright" href="https://www.apple.com/iphone-se/" target="_self" rel="follow" data-analytics-region="learn more"
+                                data-analytics-title="Learn more about iPhone SE"
+                                aria-label="Learn more about iPhone SE" >Learn more</a>
+                     <a class="icon icon-after icon-chevronright" href="http://www.apple.com/us/shop/goto/buy_iphone/iphone_se" target="_self" rel="follow" data-analytics-region="buy"
+                                data-analytics-title="Buy iPhone SE" aria-label="Buy iPhone SE" >Buy</a>
+                </div>
+                
+            </div>
+                <div class="unit-image-wrapper" >
+                    <figure
+                         class="iphone-se-hero" data-anim-lazy-image >
+                        
+                    </figure>
+                </div>
+        </div>
+        
+    </div>
+</div>
+<div data-unit-id="iphone-11-spring" data-analytics-section-engagement="name:hero-iphone-11-spring">	
+    <div class="iphone-11">
+		<div class="unit-wrapper">
+     	<a class="unit-link" href="https://www.apple.com/iphone-11/" target="_self" rel="follow" data-analytics-region="learn more" aria-hidden="true" tabindex="-1">&nbsp;</a>
+		<a class="unit-link variant" href="https://www.apple.com/iphone-11/upgrade/" target="_self" rel="follow" data-analytics-region="learn more" aria-hidden="true" tabindex="-1">&nbsp;</a>
+	<div class="unit-copy-wrapper">
+		<h2 class="headline" >iPhone 11</h2>
+		<h3 class="subhead" role="presentation">Just the right amount of everything.</h3>
+        <p class="price"><span aria-label="From nineteen dollars and ninety five cents per month or four hundred and seventy nine dollars with trade in."
+            role="text">From <span class="nowrap">$19.95/mo.</span> or&nbsp;<span class="nowrap">$479</span>&nbsp;with&nbsp;trade‑in.</span><sup><a href="#footnote-1" class="footnote">1</a></sup>	</p>
+								
+	<div class="cta-links" ><a class="icon icon-after icon-chevronright control" href="https://www.apple.com/iphone-11/" target="_self" rel="follow" data-analytics-region="learn more"
+		data-analytics-title="Learn more about iPhone 11" aria-label="Learn more about iPhone 11">Learn more</a>
+	<a class="icon icon-after icon-chevronright variant" href="https://www.apple.com/iphone-11/upgrade/" target="_self" rel="follow" data-analytics-region="learn more"
+	data-analytics-title="Learn more about iPhone 11"aria-label="Learn more about iPhone 11">Learn more</a>
+	<a class="icon icon-after icon-chevronright" href="https://www.apple.com/us/shop/goto/buy_iphone/iphone_11" target="_self" rel="follow" data-analytics-region="buy"
+	 data-analytics-title="Buy iPhone 11" aria-label="Buy iPhone 11">Buy</a>
+	   </div>
+		</div>
+			<div class="unit-image-wrapper"><figure class="unit-image unit-image-iphone-11-spring-hero"></figure>
+			</div>
+			</div>
+		 </div>
+      </div></section>
+    <section class="tvpart">
+        <div data-unit-id="tv-plus-greyhound" data-analytics-section-engagement="name:hero-tv-plus-greyhound">
+			<div class="tv">
+			<div class="unit-wrapper theme-dark"><a  class="unit-link" data-analytics-exit-link
+			  href="https://tv.apple.com/movie/umc.cmc.o5z5ztufuu3uv8lx7m0jcega?itscg=10000&itsct=atv-0-apl_hp-tle_wch-gry-200629" target="_self" rel="follow" data-analytics-region="learn more">&nbsp;</a>
+			<div class="unit-copy-wrapper">
+			  <h2 class="logo-image logo-image-tv-plus-logo-hero-light headline"><span class="visuallyhidden">Apple TV plus</span></h2>
+				<div class="tile-copy">
+			      <h5 class="logo-image logo-image-tv-plus-greyhound-logo-hero subhead" role="text"><span class="visuallyhidden">Tom Hanks Greyhound</span></h5>
+			<div class="cta-links">
+			<a class="icon icon-after icon-playsolid" data-analytics-exit-link
+			href="https://tv.apple.com/movie/umc.cmc.o5z5ztufuu3uv8lx7m0jcega?itscg=10000&itsct=atv-0-apl_hp-tle_wch-gry-200629" target="_self" rel="follow" data-analytics-region="learn more"
+				data-analytics-title="An Apple Original. Watch Greyhound now on the Apple TV app."
+				aria-label="An Apple Original. Watch Greyhound now on the Apple TV app.">Watch now</a>
+			</div>
+		  </div>
+			</div>
+			<div class="unit-image-wrapper">
+				<figure class="unit-image unit-image-tv-plus-greyhound-hero" data-anim-lazy-image>
+				</figure>
+			</div>
+		</div>
+		</div>
+		</div></section>
+        <nav class="last">
+            <section class="footter" aria-label="Footnotes">
+
+                <ul>
+                    <li><span id='footnote-1'><br><br>1. Trade In: Trade‑in values vary. iPhone 11 and iPhone 11 Pro promotional pricing is after trade‑in of iPhone 8 Plus and iPhone X in good condition. iPhone SE promotional pricing is after trade-in of iPhone 8 in good condition. Additional trade‑in values require purchase of a new iPhone, subject to availability and limits. Must be at least 18. Apple or its trade-in partners reserve the right to refuse or limit any Trade In transaction for any reason. In‑store trade‑in requires presentation of a valid, government-issued photo ID (local law may require saving this information). Sales tax may be assessed on full value of new iPhone. Additional terms from Apple or Apple’s trade-in partners may apply. Monthly pricing: Available to qualified customers and requires 0% APR, 24-month installment loan with Citizens One or Apple Card Monthly Installments and iPhone activation with AT&T, Sprint, T-Mobile, or Verizon. Taxes and shipping not included. Additional Apple Card Monthly Installments terms are in the <a href='https://www.goldmansachs.com/terms-and-conditions/Apple-Card-Customer-Agreement.pdf' rel='nofollow'>Customer Agreement</a>. Additional iPhone Payments terms are <a href='/legal/sales-support/iphoneinstallments_us/'>here</a>.</span></li><br>
+                    <li><span id='footnote-2'>2. $4.99/month after free trial. No commitment. Plan automatically renews after trial until cancelled.</span></li>
+                    <li><span id='footnote-2'>2. Apple Card Monthly Installments is available for certain Apple products and is subject to credit approval and credit limit. See <a href='https://support.apple.com/kb/HT211204'>https://support.apple.com/kb/HT211204</a> for more information about eligible products. iPhone activation required on iPhone purchases made at an Apple Store with one of these national carriers: AT&amp;T, Sprint, Verizon, or T-Mobile. Variable APRs for Apple Card other than Apple Card Monthly Installments range from 10.99% to 21.99% based on creditworthiness. Rates as of April 1, 2020. Taxes and shipping are not included in Apple Card Monthly Installments and are subject to your standard purchase APR. See the Apple Card customer agreement for more information.</span></li><br>
+                    <li><span id='footnote-3'>3. Apple Card Monthly Installments is available for certain Apple products and is subject to credit approval and credit limit. See <a href='https://support.apple.com/kb/HT211204'>https://support.apple.com/kb/HT211204</a> for more information about eligible products. iPhone activation required on iPhone purchases made at an Apple Store with one of these national carriers: AT&amp;T, Sprint, Verizon, or T-Mobile. Variable APRs for Apple Card other than Apple Card Monthly Installments range from 10.99% to 21.99% based on creditworthiness. Rates as of April 1, 2020. Taxes and shipping are not included in Apple Card Monthly Installments and are subject to your standard purchase APR. See the Apple Card customer agreement for more information.</span></li><br>
+                    <li>Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3 months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other <a href='/promo/'>terms</a> apply.</li>
+                </ul>
+            </section>
+
+
+            <section id="lastpart"><hr>
+
+        <nav class="with-5-columns" aria-label="Apple Directory" role="navigation">
+<!--googleoff: all-->
+<div class="column"><input class="column-section-state" type="checkbox" id="column-section-state-products" />
+    <div class="column-section">
+        
+    <h3 class="column-section-title">Shop and Learn</h3>
+
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/mac/" data-analytics-title="mac">Mac</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/ipad/" data-analytics-title="ipad">iPad</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/iphone/" data-analytics-title="iphone">iPhone</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/watch/" data-analytics-title="watch">Watch</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/tv/" data-analytics-title="tv">TV</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/music/" data-analytics-title="music">Music</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/airpods/" data-analytics-title="airpods">AirPods</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/homepod/" data-analytics-title="homepod">HomePod</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/ipod-touch/" data-analytics-title="ipod touch">iPod touch</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/buy_accessories" data-analytics-title="accessories">Accessories</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/giftcards" data-analytics-title="gift cards">Gift Cards</a></li>
+        </ul>
+    </div>
+</div>
+<div class="column">
+    <input class="column-section-state" type="checkbox" id="column-section-state-services" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-services">
+    <h3 class="column-section-title">Services</h3>
+</label>
+       
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="/apple-music/" data-analytics-title="apple music">Apple Music</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="/apple-news/" data-analytics-title="apple news plus">Apple News+</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="/apple-tv-plus/" data-analytics-title="apple tv plus">Apple TV+</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="/apple-arcade/" data-analytics-title="apple arcade">Apple Arcade</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="/apple-books/" data-analytics-title="apple books">Apple Books</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="/apple-card/" data-analytics-title="apple card">Apple Card</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="/icloud/" data-analytics-title="icloud">iCloud</a></li>
+        </ul>
+    </div>
+    <input class="column-section-state" type="checkbox" id="column-section-state-accounts" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-accounts">
+    <h3 class="column-section-title">Account</h3>
+</label>
+
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://appleid.apple.com/us/" data-analytics-title="manage your apple id" data-analytics-exit-link>Manage Your Apple ID</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="/us/shop/goto/account" data-analytics-title="apple store account">Apple Store Account</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.icloud.com" data-analytics-title="icloud.com" data-analytics-exit-link>iCloud.com</a></li>
+        </ul>
+    </div>
+</div>
+<div class="column"><input class="column-section-state" type="checkbox" id="column-section-state-storeservices" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-storeservices">
+    <h3 class="column-section-title">Apple Store</h3>
+</label>
+      
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/retail/" data-analytics-title="find a store">Find a Store</a></li>
+            <li class="section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/shop" data-analytics-title="shop online">Shop Online</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/retail/geniusbar/" data-analytics-title="genius bar">Genius Bar</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/today/" data-analytics-title="today at apple">Today at Apple</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/today/camp/" data-analytics-title="apple camp">Apple Camp</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://itunes.apple.com/app/apple-store/id375380948?pt&#x3D;2003&amp;ct&#x3D;footer&amp;mt&#x3D;8" data-analytics-title="apple store app" data-analytics-exit-link>Apple Store App</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/special_deals" data-analytics-title="refurbished and clearance">Refurbished and Clearance</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/payment_plan" data-analytics-title="financing">Financing</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/trade_in" data-analytics-title="apple trade in">Apple Trade In</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/order/list" data-analytics-title="order status">Order Status</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/help" data-analytics-title="shopping help">Shopping Help</a></li>
+        </ul>
+    </div>
+</div>
+<div class="column">
+    <input class="column-section-state" type="checkbox" id="column-section-state-business" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-business">
+    <h3 class="column-section-title">For Business</h3>
+</label>
+
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/business/" data-analytics-title="apple and business">Apple and Business</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/retail/business/" data-analytics-title="shop for business">Shop for Business</a></li>
+        </ul>
+    </div>
+    <input class="column-section-state" type="checkbox" id="column-section-state-education" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-education">
+    <h3 class="column-section-title">For Education</h3>
+</label>
+
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/education/" data-analytics-title="apple and education">Apple and Education</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/education/k12/how-to-buy/" data-analytics-title="shop for k12">Shop for K-12</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/educationrouting" data-analytics-title="shop for college">Shop for College</a></li>
+        </ul>
+    </div>
+    <input class="column-section-state" type="checkbox" id="column-section-state-healthcare" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-healthcare">
+    <h3 class="column-section-title">For Healthcare</h3>
+</label>
+      
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/healthcare/" data-analytics-title="apple in healthcare">Apple in Healthcare</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/healthcare/apple-watch/" data-analytics-title="health on apple watch">Health on Apple Watch</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/healthcare/health-records/" data-analytics-title="health records on iphone">Health Records on iPhone</a></li>
+        </ul>
+    </div>
+    <input class="column-section-state" type="checkbox" id="column-section-state-government" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-government">
+    <h3 class="column-section-title">For Government</h3>
+</label>
+      
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/r/store/government/" data-analytics-title="shop for government">Shop for Government</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary" data-analytics-title="shop for veterans and military">Shop for Veterans and Military</a></li>
+        </ul>
+    </div>
+</div>
+<div class="column">
+    <input class="column-section-state" type="checkbox" id="column-section-state-responsibility" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-responsibility">
+    <h3 class="column-section-title">Apple Values</h3>
+</label>
+
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/accessibility/" data-analytics-title="accessibility">Accessibility</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/education/connectED/" data-analytics-title="education">Education</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/environment/" data-analytics-title="environment">Environment</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/diversity/" data-analytics-title="inclusion and diversity">Inclusion and Diversity</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/privacy/" data-analytics-title="privacy">Privacy</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/supplier-responsibility/" data-analytics-title="supplier responsibility">Supplier Responsibility</a></li>
+        </ul>
+    </div>
+    <input class="column-section-state" type="checkbox" id="column-section-state-about" />
+    <div class="column-section">
+        <label class="column-section-label" for="column-section-state-about">
+    <h3 class="column-section-title">About Apple</h3>
+</label>
+
+        <ul class="column-section-list">
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/newsroom/" data-analytics-title="newsroom">Newsroom</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/leadership/" data-analytics-title="apple leadership">Apple Leadership</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/jobs/us/" data-analytics-title="job opportunities">Job Opportunities</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://investor.apple.com/" data-analytics-title="investors" data-analytics-exit-link>Investors</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/apple-events/" data-analytics-title="events">Events</a></li>
+            <li class="column-section-item"><a class="column-section-link" href="https://www.apple.com/contact/" data-analytics-title="contact apple">Contact Apple</a></li>
+        </ul>
+    </div>
+</div>
+<!--googleon: all-->
+</nav>
+
+    <section class="footer">
+        <div class="shop" x-ms-format-detection="none"><br><br>
+            More ways to shop: <a href="https://www.apple.com/retail/" data-analytics-title="find an apple store">Find an Apple Store</a>
+             or <a href="https://locate.apple.com/" data-analytics-title="other retailers or resellers"
+              data-analytics-exit-link>other retailer</a> near you. <span class="nowrap">Or call 1-800-MY-APPLE.</span>
+        </div><hr>
+        <div class="footer-locale">
+            <a class="footer-locale-link" href="https://www.apple.com/choose-country-region/" title="Choose your country or region"
+             aria-label="United States. Choose your country or region" data-analytics-title="choose your country">
+             <span class="footer-locale-flag" data-hires="false"></span>United States</a>
+        </div>
+        <div class="footer-legal">
+            <div class="legal-copyright">Copyright ©
+                
+                2020
+                Apple Inc. All rights reserved.
+            
+                <a class="footer-legal-link" href="https://www.apple.com/legal/privacy/" data-analytics-title="privacy policy">          Privacy Policy   |</a>
+                <a class="footer-legal-link" href="https://www.apple.com/legal/internet-services/terms/site.html" data-analytics-title="terms of use">Terms of Use   |</a>
+                <a class="footer-legal-link" href="https://www.apple.com/us/shop/goto/help/sales_refunds" data-analytics-title="sales and refunds">Sales and Refunds   |</a>
+                <a class="footer-legal-link" href="https://www.apple.com/legal/" data-analytics-title="legal">Legal            |</a>
+                <a class="footer-legal-link" href="https://www.apple.com/sitemap/" data-analytics-title="site map">Site Map</a>
+            </div>
+        </div>
+    </section>
+    </nav>
+</section>
+</body>
+</html>
